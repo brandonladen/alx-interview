@@ -5,7 +5,7 @@ pascal triangle
 
 def pascal_triangle(n):
     # Return an empty list if n is less than or equal to 0
-    if n <= 0:
+    if type(n) is not int or n <= 0:
         return []
     
     # Initialize the triangle with the first row
